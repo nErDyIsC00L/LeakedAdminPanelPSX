@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mori Scripts | 🍍 Pet Simulator X! 🐾", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Admin Script LEAKED")
+local MainSection = Main:NewSection("Admin Panel")
+
+MainSection:NewButton("Admin Panel - Leaked ! ", "Successful", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nErDyIsC00L/LeakedAdminPanelPSX/main/NerdysLeak", true))()
